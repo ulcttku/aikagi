@@ -1,0 +1,6 @@
+.git/
+coverage/
+src/
+.gitignore
+npm-debug.log
+tsconfig.json

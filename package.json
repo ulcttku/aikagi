@@ -1,0 +1,25 @@
+{
+  "name": "aikagi",
+  "version": "1.0.0",
+  "description": "Aikagi converts the key of the object and then also converts the type.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "test": "jest"
+  },
+  "author": "ulcttku",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "tsd": "^0.17.0",
+    "typescript": "^4.3.3"
+  },
+  "dependencies": {}
+}
