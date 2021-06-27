@@ -1,4 +1,3 @@
-
 type Dictionary<K extends string = string, V = unknown> = {[key in K]: V};
 
 type Expand<T> =

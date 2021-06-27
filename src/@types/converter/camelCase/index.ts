@@ -1,3 +1,5 @@
+/// <reference path="../../global.ts"/>
+
 type SnakeToCamel<T> =
     T extends string ?
         T extends `${infer Head}_${infer Tail}` ?
@@ -18,4 +20,4 @@ type ContractCamel<T extends Dictionary> = {
                     T[K];
 };
 
-type CamelCase<T> = Expand<ContractCamel<T>>;
+type CamelCase<T extends Dictionary> = Expand<ContractCamel<T>>;
