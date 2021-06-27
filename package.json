@@ -1,6 +1,6 @@
 {
   "name": "aikagi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aikagi converts the key of the object and then also converts the type.",
   "main": "dist/index.js",
   "files": [
