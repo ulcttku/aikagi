@@ -1,7 +1,12 @@
 {
   "name": "aikagi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aikagi converts the key of the object and then also converts the type.",
+  "homepage": "https://github.com/ulcttku/aikagi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ulcttku/aikagi"
+  },
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -19,8 +24,9 @@
     "jest": "^27.0.4",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
-    "tsd": "^0.17.0",
-    "typescript": "^4.3.3"
+    "tsd": "^0.17.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
 }
