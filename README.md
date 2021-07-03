@@ -1,8 +1,13 @@
 # Aikagi
 
+![version](https://img.shields.io/npm/v/aikagi)
+![license](https://img.shields.io/npm/l/aikagi)
+
 Aikagi converts the key of the object and then also converts the type.
 
 ## Usage
+
+### SnakeCase to CamelCase
 
 ```TypeScript
 import * as aikagi from 'aikagi';
@@ -51,4 +56,33 @@ const response = {
 //     updatedAt: string;
 // }
 const obj = aikagi.camelCase(response);
+```
+
+### CamelCase to SnakeCase
+
+```TypeScript
+import * as aikagi from 'aikagi';
+
+const response = {
+    title: 'Aikagi is a useful library!!!',
+    content: 'Aikagi converts the key of the object.',
+    isDraft: true,
+    createBy: {
+        userId: 'author',
+        lastName: 'Alpha',
+        firstName: 'Bravo',
+    },
+};
+
+// const obj: {
+//     title: string;
+//     content: string;
+//     is_draft: boolean;
+//     create_by: {
+//         user_id: string;
+//         last_name: string;
+//         first_name: string;
+//     };
+// }
+const obj = aikagi.snakeCase(response);
 ```
