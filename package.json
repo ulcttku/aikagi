@@ -1,6 +1,6 @@
 {
   "name": "aikagi",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Aikagi converts the key of the object and then also converts the type.",
   "homepage": "https://github.com/ulcttku/aikagi",
   "repository": {
