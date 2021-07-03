@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "clean": "tsc --build --clean",
     "prepare": "yarn build",
     "test": "jest"
