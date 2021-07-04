@@ -1,3 +1,4 @@
+/// <reference path="../../@types/index.ts" />
 import { entries } from '../../uitls/entries';
 import { isDictionary } from '../../uitls/isDictionary';
 import { fromEntries } from '../../uitls/fromEntries';
